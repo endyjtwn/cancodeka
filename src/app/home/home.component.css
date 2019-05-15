@@ -1,0 +1,211 @@
+.container {
+    /* background: rgb(113,221,217);
+    background: linear-gradient(90deg, rgba(113,221,217,1) 1%, rgba(212,236,213,1) 39%, rgba(221,223,212,1) 100%); */
+    /* background: rgb(238,245,245);
+background: linear-gradient(90deg, rgba(238,245,245,1) 7%, rgba(173,214,213,1) 49%, rgba(221,223,212,1) 82%); */
+background: rgb(238,245,245);
+background: linear-gradient(90deg, rgba(238,245,245,1) 7%, rgba(207,237,236,1) 49%, rgba(221,223,212,1) 82%);    
+width: 100vw;
+    height: 100vh;
+}
+
+.social-share {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 18px;
+    width: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-medium {
+    background: #000000;
+    color: white;
+  }
+  
+  
+.container-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.content-area {
+    padding: 5rem 2rem;
+    width: 50%;
+}
+.donation {
+    width: 100%;
+    padding: 7rem 0;
+    text-align: center;
+}
+.donate-btn {
+    font-size: 16px;    
+    font-weight: bold;
+    background-color: #a5c7c6;
+    padding: 1rem 5rem;
+    color: #425e63;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    box-shadow: 1px 4px 5px 1px #3FB0AC;
+}
+.donate-btn:hover {
+    box-shadow: none;
+    color: #ffffff;    
+}
+
+.logo-area {
+    width: 50%;
+}
+.logo {
+    width: 50%;
+    border-radius: 50%;
+    border: 100px solid #3FB0AC;
+    float: right;
+    position: absolute;
+}
+
+li {
+    white-space:nowrap;
+}
+
+.donation-mobile {
+    display: none;
+    width: 100%;
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        background: rgb(63,176,172);
+        background: linear-gradient(0deg, rgba(63,176,172,1) 0%, rgba(139,189,178,1) 21%, rgba(221,223,212,1) 100%);
+        position: fixed;
+    }
+  .logo {
+    border: 30px solid #3FB0AC;
+    position: initial;    
+  }
+    
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+    .container {
+        background: rgb(63,176,172);
+        background: linear-gradient(0deg, rgba(63,176,172,1) 0%, rgba(139,189,178,1) 21%, rgba(221,223,212,1) 100%);
+        position: fixed;
+    }
+
+    .content-area {
+        width: 70%;
+        font-size: 12px;
+        padding: 2rem .5rem;
+    }
+
+    .logo-area{
+        width: 30%;
+    }
+    .logo {
+        border: 5px solid #3FB0AC;
+        position: relative;
+        height: 50px;
+        width: 50px;
+        position: initial;    
+        
+        /* margin-right: 50px; */
+    }
+}
+  
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 370px) {
+    .container {
+        background: rgb(63,176,172);
+        background: linear-gradient(0deg, rgba(63,176,172,1) 0%, rgba(139,189,178,1) 21%, rgba(221,223,212,1) 100%);
+        position: fixed;
+    }
+
+    .content-area {
+        width: 70%;
+        font-size: 12px;
+        padding: 2rem 1rem;
+    }
+
+    .donation {
+        display: none;
+    }
+
+    .donation-mobile {
+        display: inline;
+        margin: 0 68px;
+        text-align: unset;
+    }
+    .donation-mobile {
+        width: 100%;
+        padding: 6rem 0;
+        text-align: center;
+    }
+    .donate-btn {
+        font-size: 16px;    
+        font-weight: bold;
+        background-color: honeydew;
+        padding: 1rem 3rem;
+        border-radius: 4px;
+        box-shadow: 1px 4px 5px 1px #3FB0AC;
+    }
+    .donate-btn:hover {
+        box-shadow: none;
+    }
+
+    .logo-area{
+        width: 30%;
+    }
+    .logo {
+        border: 5px solid #3FB0AC;
+        position: relative;
+        height: 50px;
+        width: 50px;
+        position: initial;    
+    }
+}
