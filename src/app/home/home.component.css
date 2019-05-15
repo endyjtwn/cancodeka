@@ -3,8 +3,10 @@
     background: linear-gradient(90deg, rgba(113,221,217,1) 1%, rgba(212,236,213,1) 39%, rgba(221,223,212,1) 100%); */
     /* background: rgb(238,245,245);
 background: linear-gradient(90deg, rgba(238,245,245,1) 7%, rgba(173,214,213,1) 49%, rgba(221,223,212,1) 82%); */
-background: rgb(238,245,245);
-background: linear-gradient(90deg, rgba(238,245,245,1) 7%, rgba(207,237,236,1) 49%, rgba(221,223,212,1) 82%);    
+/* background: rgb(238,245,245);
+background: linear-gradient(90deg, rgba(238,245,245,1) 7%, rgba(207,237,236,1) 49%, rgba(221,223,212,1) 82%);     */
+background: rgb(216,233,231);
+background: linear-gradient(0deg, rgba(216,233,231,1) 18%, rgba(231,242,240,1) 37%, rgba(240,244,242,1) 70%, rgba(247,247,243,1) 90%);
 width: 100vw;
     height: 100vh;
 }
@@ -83,7 +85,7 @@ width: 100vw;
     color: #425e63;
     padding: 1rem 3rem;
     border-radius: 4px;
-    box-shadow: 1px 4px 5px 1px #3FB0AC;
+    box-shadow: 1px 4px 5px 1px #99b5b4;
 }
 .donate-btn:hover {
     box-shadow: none;
@@ -105,10 +107,6 @@ li {
     white-space:nowrap;
 }
 
-.donation-mobile {
-    display: none;
-    width: 100%;
-}
 
 
 /* 
@@ -117,95 +115,18 @@ li {
 */
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
-        background: rgb(63,176,172);
-        background: linear-gradient(0deg, rgba(63,176,172,1) 0%, rgba(139,189,178,1) 21%, rgba(221,223,212,1) 100%);
-        position: fixed;
+       display: none;
     }
-  .logo {
-    border: 30px solid #3FB0AC;
-    position: initial;    
-  }
-    
 }
 
 @media (min-width: 375px) and (max-width: 480px) {
     .container {
-        background: rgb(63,176,172);
-        background: linear-gradient(0deg, rgba(63,176,172,1) 0%, rgba(139,189,178,1) 21%, rgba(221,223,212,1) 100%);
-        position: fixed;
-    }
-
-    .content-area {
-        width: 70%;
-        font-size: 12px;
-        padding: 2rem .5rem;
-    }
-
-    .logo-area{
-        width: 30%;
-    }
-    .logo {
-        border: 5px solid #3FB0AC;
-        position: relative;
-        height: 50px;
-        width: 50px;
-        position: initial;    
-        
-        /* margin-right: 50px; */
-    }
+        display: none;
+     }
 }
-  
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-*/
+
 @media (min-width: 320px) and (max-width: 370px) {
     .container {
-        background: rgb(63,176,172);
-        background: linear-gradient(0deg, rgba(63,176,172,1) 0%, rgba(139,189,178,1) 21%, rgba(221,223,212,1) 100%);
-        position: fixed;
-    }
-
-    .content-area {
-        width: 70%;
-        font-size: 12px;
-        padding: 2rem 1rem;
-    }
-
-    .donation {
         display: none;
-    }
-
-    .donation-mobile {
-        display: inline;
-        margin: 0 68px;
-        text-align: unset;
-    }
-    .donation-mobile {
-        width: 100%;
-        padding: 6rem 0;
-        text-align: center;
-    }
-    .donate-btn {
-        font-size: 16px;    
-        font-weight: bold;
-        background-color: honeydew;
-        padding: 1rem 3rem;
-        border-radius: 4px;
-        box-shadow: 1px 4px 5px 1px #3FB0AC;
-    }
-    .donate-btn:hover {
-        box-shadow: none;
-    }
-
-    .logo-area{
-        width: 30%;
-    }
-    .logo {
-        border: 5px solid #3FB0AC;
-        position: relative;
-        height: 50px;
-        width: 50px;
-        position: initial;    
-    }
+     }
 }
