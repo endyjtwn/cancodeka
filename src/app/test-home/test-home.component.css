@@ -1,0 +1,68 @@
+.greeding-wrapper {
+    width: 100vw;
+    height: 90vh;
+    background: rgb(91,169,200);
+    border-bottom-right-radius: 60%;
+    background: linear-gradient(90deg, rgba(91,169,200,1) 29%, rgba(77,218,196,1) 72%);
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Bangers', cursive; */
+
+}
+.greeding {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+h1 , h3 {
+    margin: 0;
+}
+
+.greeding-text {
+    font-size: 118px;
+    color: #ffffff;
+}
+.sub-header {
+    color: #ffffff;
+    margin-bottom: 6rem;
+}
+.seemore-btn {
+    background: #ffffff;
+    color: rgb(91,169,200);
+    padding: 1rem 4rem;
+    /* box-shadow: 4px 5px 5px 0px #4b8c8c; */
+    text-decoration: none;
+    border-radius: 2rem;
+}
+.seemore-btn:hover {
+    color: rgb(91,169,200);
+    background: rgba(255,255,255,0.851);
+}
+
+/*  */
+/* end greeding header */
+/*  */
+
+.aboutus-wrapper {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+.aboutus {
+    text-align: center;
+}
+p, li {
+    font-size: 24px;
+    font-weight: initial;
+    color: #A1A1A1;
+}
+h2 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #5E5E5E;
+}
+
+.logo {
+    width: 20%;
+}
