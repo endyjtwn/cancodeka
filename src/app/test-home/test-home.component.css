@@ -1,3 +1,4 @@
+
 .greeding-wrapper {
     width: 100vw;
     height: 90vh;
@@ -9,14 +10,16 @@
 
 }
 .greeding {
-    position: absolute;
     width: 100vw;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    margin-top: 10rem;
 }
 
 h1 , h3 {
-    margin: 0;
+    margin: 10px;
 }
 
 .greeding-text {
@@ -45,9 +48,9 @@ h1 , h3 {
 /*  */
 
 .aboutus-wrapper {
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
     background: #ffffff;
+    padding: 4rem 0;
 }
 .aboutus {
     text-align: center;
@@ -62,7 +65,161 @@ h2 {
     font-size: 36px;
     color: #5E5E5E;
 }
-
+.spacing {
+    margin-top: 5rem;
+}
+.hr-line {
+    margin: 0px 35rem;
+    color: #7d7d7d;
+}
 .logo {
-    width: 20%;
+    margin-top: 5rem;
+    text-align: center;
+    width: 25%;
+    border-radius: 50%;
+    background: rgb(91,169,200);
+    background: linear-gradient(0deg, rgba(91,169,200,1) 29%, rgba(77,218,196,1) 72%);
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 100%;
+    background: rgb(91,169,200);
+    border-top-right-radius: 60%;
+    background: linear-gradient(90deg, rgba(91,169,200,1) 29%, rgba(77,218,196,1) 72%);
+    
+}
+.alright {
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+}
+.donate-btn {
+    font-size: 16px;    
+    font-weight: bold;
+    background-color: #d662ae;
+    padding: 1rem 5rem;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    box-shadow: 1px 4px 5px 1px #2d5857;
+}
+.donate-btn:hover {
+    box-shadow: none;
+}
+
+
+/* social */
+
+.social-share {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 18px;
+    width: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-medium {
+    background: #000000;
+    color: white;
+  }
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 375px) and (max-width: 480px) {
+    .greeding-text {
+        font-size: 36px;
+    }
+    .seemore-btn {
+        padding: .5rem 2rem;
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p, li {
+        font-size: 10px;
+    }
+    .logo {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 370px) {
+    .greeding-text {
+        font-size: 36px;
+     }
+    .sub-header {
+        font-size: 10px;
+    }
+    .seemore-btn {
+        padding: .5rem 2rem;
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p, li {
+        font-size: 12px;
+    }
+    .logo {
+        margin-top: 1rem;
+    }
+   
 }

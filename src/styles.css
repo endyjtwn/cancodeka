@@ -3,6 +3,7 @@ body {
     margin: 0;
     /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
